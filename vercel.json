@@ -1,0 +1,21 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/contact.php",
+      "destination": "/api/contact"
+    },
+    {
+      "source": "/quickloan.php",
+      "destination": "/api/contact"
+    },
+    {
+      "source": "/reviews.php",
+      "destination": "/api/contact"
+    },
+    {
+      "source": "/contactloan.php",
+      "destination": "/api/contact"
+    }
+  ]
+}
